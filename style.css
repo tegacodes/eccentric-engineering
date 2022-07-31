@@ -5,12 +5,18 @@
 
 * {
   box-sizing: border-box;
+  /* margin: 0; */
 }
+
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
+  background: #c1c0c0;
+
 }
 
 p {
@@ -208,7 +214,6 @@ ul {
 
 h3 {
   border-top: dashed 1px;
-  padding-top: 35px;
   font-size: 25px;
   font-family: "Aureum", Arial, Helvetica, sans-serif;
   /* text-align: center; */
@@ -226,6 +231,13 @@ h4 {
 
 a {
   color: inherit;
+}
+
+.intro{
+  background-image:url("images/gradient10.png") ;
+  background-repeat: repeat-x;
+  background-size: 150vh;
+ 
 }
 
 .deepswamp {
@@ -248,17 +260,25 @@ a {
   color: #d9ff95;
 }
 
-.eccentric {
-  background-image:url("images/worldsystem3.png") ;
-  /* background-image:url("images/dw-blue-edit.png") ; */
+.final {
+  padding-top:20px;
+  background-image:url("images/gradient9.png") ;
+  background-repeat: repeat-x;
 
-    /* background: radial-gradient(#000,rgba(255,0,0,0)); */
+}
 
-  /* background-image: linear-gradient( #ff3f54,#ff3f54,rgb(251, 159, 159)); */
-  /* background-color:#969ba1 ; */
+.final-content {
+  /* background-image:url("images/gradient6.png") ; */
+  /* background-size: 100vh; */
+  /* background-color: #a5a5a5; */
 
-  color:#fff; 
-/* color: #fff; */
+  /* background-image: linear-gradient(rgb(100, 100, 100), rgb(236, 234, 234),rgb(100, 100, 100)); */
+  padding-left:25%;
+  padding-right: 25%;
+  text-align: left;
+ color: black;
+
+
 }
 
 
@@ -288,28 +308,24 @@ a {
   text-align: left;
 }
 
-.final {
-  padding-top:20px;
-  background-image: linear-gradient(rgb(236, 234, 234), rgb(100, 100, 100));
 
-}
 
 .final-title {
   padding-left:20%;
   padding-right:20%;
   text-align: center;
 
+
 }
 
 .final-title h1{
-    font-size: calc(50px + 5vw);
+    font-size: calc(40px + 5vw);
     text-align: center;
     text-transform: uppercase;
     margin: 0;
     font-family: "Aureum", Arial, Helvetica, sans-serif;
     padding: 0;
     color:rgb(243, 255, 140);
-    padding-bottom: 40px;
 
 }
 
@@ -329,6 +345,7 @@ a {
 }
 
 .final-image {
+
   width: 100%;
   padding-top: 20px;
   padding-bottom:0px;
@@ -336,15 +353,7 @@ a {
 
 }
 
-.final-content {
-  background-image: linear-gradient(rgb(100, 100, 100), rgb(236, 234, 234),rgb(100, 100, 100));
-  padding-left:25%;
-  padding-right: 25%;
-  text-align: left;
- color: black;
 
-
-}
 
 .final-content h4{
   color:rgb(243, 255, 140);
