@@ -136,6 +136,10 @@ section {
   /* text-align: center; */
 }
 
+.content h3{
+    padding-top: 35px;
+}
+
 .intro img {
   max-width: 120px;
 
@@ -217,7 +221,7 @@ h3 {
   font-size: 25px;
   font-family: "Aureum", Arial, Helvetica, sans-serif;
   /* text-align: center; */
-  /* margin-top: 35px; */
+
 }
 
 h4 {
